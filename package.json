@@ -1,0 +1,16 @@
+{
+  "name": "usersdot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd client && yarn && yarn dev\" \"cd server && yarn && yarn start:dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "packageManager": "yarn@4.4.0"
+}
